@@ -1,0 +1,102 @@
+
+body {
+	font-family: Arial, san-serif;
+	display: flex;
+}
+
+.list-album-type {
+	flex-grow: 8;
+}
+.list-song {
+	flex-grow: 1;
+}
+
+.weekly-item {
+	display: flex;
+	align-items: center;
+	padding: 12px 0;
+	border-bottom: 1px solid #CCC;
+}
+
+.weekly-item .number {
+	font-size: 24px;
+	padding: 0 7px 0 2px;
+}
+
+.weekly-item .song {
+	font-size: 16px;
+	flex-grow: 1;
+}
+
+.weekly-item .song-name {
+	margin-bottom: 8px;
+}
+
+.weekly-item .singer {
+	font-size: 12px;
+	color: #CCC;
+}
+
+.weekly-item .view {
+	font-size: 12px;
+
+}
+
+.list-album {
+	width: 100%;
+	height: 90px;
+	background-color: #DDD;
+	background-image: url('./anh3.jpeg');
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.list-album .album-cover1 {
+	display: flex;
+	align-items: center;
+	background: linear-gradient(0deg, rgba(2,0,36,0.989233193277311) 0%, rgba(9,121,110,0.028448879551820738) 100%, rgba(0,212,255,1) 100%);
+	border: 1px none;
+	margin-top: 5px
+}
+
+.album-cover1 .number {
+	font-size: 15px;
+	padding: 60px 10px 25px 10px;
+}
+
+.album-cover1 .song {
+	padding-top: 40px;
+	flex-grow: 1;
+}
+
+.album-cover1 .view {
+	padding-top: 50px;
+
+}
+
+.list-album-type .album-square {
+	width: 150px;
+	height: 150px;
+	background-color: #DDD;
+	background-image: url('./anh3.jpeg');
+	background-size: cover;
+	background-position: center;
+	color: white;
+	font-size: 60px;
+}
+
+.list-album-type .overplay {
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	opacity: 0;
+}
+
+.album-square:hover .overplay {
+	opacity: 1;
+}
+
